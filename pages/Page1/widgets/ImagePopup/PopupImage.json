@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 48,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{ appsmith.store.imageBase64Data }}\n",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "x3ybdgbm5i",
+  "leftColumn": 2,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "parentColumnSpace": 13.78125,
+  "parentId": "163e32wm3u",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "topRow": 6,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "alveynjmap",
+  "widgetName": "PopupImage"
+}
