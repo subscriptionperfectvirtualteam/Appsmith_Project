@@ -9,6 +9,7 @@ export default {
 	onPageLoad: function() {
 		this.fetchEmployees();
 		this.fetchDepartments();
+		GetDepartmentDistribution.run(); // Run the query for department distribution chart
 	},
 	
 	// Function to reset filters
@@ -99,6 +100,7 @@ export default {
 		if (response.ok) {
 			// Refresh the data after update
 			this.fetchEmployees();
+			GetDepartmentDistribution.run(); // Update department distribution chart
 			showAlert("Employee status updated successfully!", "success");
 		} else {
 			console.error("Error updating employee status:", response.status);

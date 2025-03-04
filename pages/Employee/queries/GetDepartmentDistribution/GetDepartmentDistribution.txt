@@ -1,0 +1,11 @@
+SELECT
+  department,
+  COUNT(*) as count
+FROM
+  public.employees
+WHERE
+  department IS NOT NULL
+GROUP BY
+  department
+ORDER BY
+  count DESC

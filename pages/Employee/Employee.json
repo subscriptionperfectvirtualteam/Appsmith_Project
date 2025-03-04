@@ -28,7 +28,124 @@
           "type": "CANVAS_WIDGET",
           "version": 91,
           "widgetId": "0",
-          "widgetName": "MainContainer"
+          "widgetName": "MainContainer",
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.ad9f47a8eb.svg",
+              "topRow": 2,
+              "bottomRow": 10,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "parentColumnSpace": 20.0625,
+              "dynamicBindingPathList": [
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "chartData"
+                }
+              ],
+              "leftColumn": 33,
+              "dynamicTriggerPathList": [],
+              "customFusionChartConfig": {
+                "type": "pie2d",
+                "dataSource": {
+                  "chart": {
+                    "caption": "Department Distribution",
+                    "theme": "fusion",
+                    "showPercentValues": "0",
+                    "showLabels": "1",
+                    "showValues": "1",
+                    "showLegend": "1",
+                    "legendPosition": "right",
+                    "usedataplotcolorforlabels": "1"
+                  },
+                  "data": []
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "chartData": {
+                "yhmhnhq33e": {
+                  "seriesName": "Department",
+                  "data": "{{GetDepartmentDistribution.data.map(item => ({ x: item.department, y: parseInt(item.count) }))}}"
+                }
+              },
+              "widgetName": "DepartmentDistributionChart",
+              "displayName": "Chart",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "iconSVG": "/static/media/icon.6adbe31e.svg",
+              "widgetId": "chart1",
+              "renderMode": "CANVAS",
+              "isSortable": true,
+              "isCanvas": false,
+              "isVisible": true,
+              "version": 1,
+              "responsiveBehavior": "fill",
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "chartName": "Department Distribution",
+              "borderWidth": "0",
+              "chartType": "PIE_CHART"
+            },
+            {
+              "widgetName": "TotalEmployeesCard",
+              "borderColor": "#E0DEDE",
+              "isCanvas": false,
+              "displayName": "Stats Box",
+              "iconSVG": "/static/media/icon.1ca9e87a.svg",
+              "searchTags": [
+                "count"
+              ],
+              "topRow": 2,
+              "bottomRow": 10,
+              "parentRowSpace": 10,
+              "type": "STATS_WIDGET",
+              "parentColumnSpace": 20.0625,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "value"
+                }
+              ],
+              "leftColumn": 5,
+              "dynamicTriggerPathList": [],
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetId": "stats1",
+              "value": "{{Total_record_public_employees1.data[0].count}}",
+              "labelText": "Total Employees",
+              "labelTextSize": "0.875rem",
+              "iconName": "user",
+              "iconAlignment": "left",
+              "valueTextSize": "1.25rem",
+              "parentId": "0",
+              "decorativeBar": true,
+              "isVisible": true,
+              "version": 1,
+              "responsiveBehavior": "fill",
+              "borderWidth": "1",
+              "iconSize": "1.25rem",
+              "labelColor": "#999999",
+              "valueColor": "#231F20",
+              "backgroundColor": "white",
+              "renderMode": "CANVAS"
+            }
+          ]
         }
       }
     ],
