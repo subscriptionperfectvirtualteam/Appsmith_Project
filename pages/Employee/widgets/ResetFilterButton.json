@@ -1,0 +1,47 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "bottomRow": 25,
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "SECONDARY",
+  "clickHandler": "{{EmployeeData.resetFilters()}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "flexVerticalAlignment": "center",
+  "horizontalAlignment": "CENTER",
+  "iconAlign": "left",
+  "isDisabled": false,
+  "isVisible": true,
+  "key": "reset_button",
+  "label": "Reset Filters",
+  "labelColor": "#FFFFFF",
+  "labelStyle": "BOLD",
+  "leftColumn": 24,
+  "minHeight": 30,
+  "minWidth": 120,
+  "onClick": "{{EmployeeData.resetFilters()}}",
+  "parentColumnSpace": 20.21875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 34,
+  "topRow": 20,
+  "widgetId": "reset_filter_button",
+  "widgetName": "ResetFilterButton"
+}

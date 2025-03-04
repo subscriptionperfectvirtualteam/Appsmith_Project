@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "EmployeeData",
+    "pageId": "Employee",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "currentPage",
+        "value": "1"
+      },
+      {
+        "name": "pageSize",
+        "value": "10"
+      },
+      {
+        "name": "selectedFilters",
+        "value": "{\"department\":\"\"}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Employee_EmployeeData",
+  "deleted": false,
+  "pluginType": "JS"
+}

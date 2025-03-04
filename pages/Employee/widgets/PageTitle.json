@@ -1,0 +1,34 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "bottomRow": 14,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "horizontalAlignment": "LEFT",
+  "isVisible": true,
+  "key": "page_title",
+  "leftColumn": 2,
+  "text": "Employee Management",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 5,
+  "rightColumn": 42,
+  "verticalAlignment": "AUTO",
+  "widgetId": "page_title_widget",
+  "widgetName": "PageTitle",
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "parentColumnSpace": 20.21875,
+  "renderMode": "CANVAS"
+}

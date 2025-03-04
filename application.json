@@ -24,6 +24,10 @@
     {
       "id": "Custom_Page",
       "isDefault": false
+    },
+    {
+      "id": "Employee",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
