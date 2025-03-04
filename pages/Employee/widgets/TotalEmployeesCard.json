@@ -1,0 +1,48 @@
+{
+  "backgroundColor": "white",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 10,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "decorativeBar": true,
+  "displayName": "Stats Box",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "value"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconAlignment": "left",
+  "iconName": "user",
+  "iconSVG": "/static/media/icon.1ca9e87a.svg",
+  "iconSize": "1.25rem",
+  "isCanvas": false,
+  "isVisible": true,
+  "labelColor": "#999999",
+  "labelText": "Total Employees",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 5,
+  "parentColumnSpace": 20.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "searchTags": [
+    "count"
+  ],
+  "topRow": 2,
+  "type": "STATS_WIDGET",
+  "value": "{{Total_record_public_employees1.data[0].count}}",
+  "valueColor": "#231F20",
+  "valueTextSize": "1.25rem",
+  "version": 1,
+  "widgetId": "stats1",
+  "widgetName": "TotalEmployeesCard"
+}

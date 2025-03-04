@@ -1,0 +1,66 @@
+{
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 10,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "chartData": {
+    "yhmhnhq33e": {
+      "data": "{{GetDepartmentDistribution.data.map(item => ({ x: item.department, y: parseInt(item.count) }))}}",
+      "seriesName": "Department"
+    }
+  },
+  "chartName": "Department Distribution",
+  "chartType": "PIE_CHART",
+  "customFusionChartConfig": {
+    "dataSource": {
+      "chart": {
+        "caption": "Department Distribution",
+        "legendPosition": "right",
+        "showLabels": "1",
+        "showLegend": "1",
+        "showPercentValues": "0",
+        "showValues": "1",
+        "theme": "fusion",
+        "usedataplotcolorforlabels": "1"
+      },
+      "data": []
+    },
+    "type": "pie2d"
+  },
+  "displayName": "Chart",
+  "dynamicBindingPathList": [
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "chartData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconSVG": "/static/media/icon.6adbe31e.svg",
+  "isCanvas": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "labelOrientation": "auto",
+  "leftColumn": 33,
+  "parentColumnSpace": 20.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "searchTags": [
+    "graph",
+    "visuals",
+    "visualisations"
+  ],
+  "topRow": 2,
+  "type": "CHART_WIDGET",
+  "version": 1,
+  "widgetId": "chart1",
+  "widgetName": "DepartmentDistributionChart"
+}

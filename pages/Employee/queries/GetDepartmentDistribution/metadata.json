@@ -1,4 +1,5 @@
 {
+  "gitSyncId": "67bc02caeb15da535af69a86_8ac2ccd3-029d-4fef-9876-1a501d5bd39b",
   "id": "Employee_GetDepartmentDistribution",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
