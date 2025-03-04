@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.employees
+WHERE
+  "employee_code" ilike '%{{EmployeeTable.searchText}}%'
+ORDER BY
+  "{{EmployeeTable.sortOrder.column || 'employee_id'}}" {{EmployeeTable.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{EmployeeTable.pageSize}}
+OFFSET
+  {{EmployeeTable.pageOffset}}

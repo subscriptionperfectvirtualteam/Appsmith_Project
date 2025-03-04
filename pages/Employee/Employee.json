@@ -2,14 +2,11 @@
   "gitSyncId": "67bc02caeb15da535af69a86_df22ac03-5551-4067-9f7b-cd55dbf8a067",
   "unpublishedPage": {
     "isHidden": false,
-    "loadingIndicator": {
-      "type": "API"
-    },
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1110,
+          "bottomRow": 850,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -19,9 +16,9 @@
               "key": "onPageLoad"
             }
           ],
-          "onPageLoad": "{{EmployeeData.onPageLoad()}}",
           "leftColumn": 0,
           "minHeight": 1292,
+          "onPageLoad": "{{EmployeeData.onPageLoad()}}",
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 4896,
