@@ -3,10 +3,9 @@
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "boxShadow": "none",
   "bottomRow": 25,
-  "filterText": "",
-  "flexVerticalAlignment": "center",
+  "boxShadow": "none",
+  "defaultOptionValue": "-- Select Department --",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -23,8 +22,9 @@
       "key": "onOptionChange"
     }
   ],
-  "defaultOptionValue": "-- Select Department --",
+  "filterText": "",
   "fixedSizeOptions": true,
+  "flexVerticalAlignment": "center",
   "gridType": "vertical",
   "horizontalAlignment": "LEFT",
   "isDisabled": false,
@@ -40,8 +40,13 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 2,
   "onOptionChange": "{{EmployeeData.applyDepartmentFilter(DepartmentFilter.selectedOptionValue)}}",
+  "optionVals": [
+    {
+      "label": "-- Select Department --",
+      "value": ""
+    }
+  ],
   "options": "{{[{ \"label\": \"-- Select Department --\", \"value\": \"\" }].concat(EmployeeData.fetchDepartments.data)}}",
-  "optionVals": [{ "label": "-- Select Department --", "value": "" }],
   "parentColumnSpace": 20.21875,
   "parentId": "0",
   "parentRowSpace": 10,

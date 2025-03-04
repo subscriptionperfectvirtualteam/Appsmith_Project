@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "67bc02caeb15da535af69a86_61db15fd-074d-4670-a11a-ecbe35c9a3fe",
+  "id": "Employee_EmployeeData",
   "unpublishedCollection": {
     "name": "EmployeeData",
     "pageId": "Employee",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "currentPage",
@@ -19,10 +19,6 @@
         "name": "selectedFilters",
         "value": "{\"department\":\"\"}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Employee_EmployeeData",
-  "deleted": false,
-  "pluginType": "JS"
+    ]
+  }
 }
