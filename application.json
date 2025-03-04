@@ -18,8 +18,12 @@
   "icon": "moon",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Form_Page",
       "isDefault": true
+    },
+    {
+      "id": "Custom_Page",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
