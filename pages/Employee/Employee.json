@@ -1,6 +1,9 @@
 {
   "unpublishedPage": {
     "isHidden": false,
+    "loadingIndicator": {
+      "type": "API"
+    },
     "layouts": [
       {
         "dsl": {
@@ -10,7 +13,12 @@
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
+          "dynamicTriggerPathList": [
+            {
+              "key": "onPageLoad"
+            }
+          ],
+          "onPageLoad": "{{EmployeeData.onPageLoad()}}",
           "leftColumn": 0,
           "minHeight": 1292,
           "parentColumnSpace": 1,

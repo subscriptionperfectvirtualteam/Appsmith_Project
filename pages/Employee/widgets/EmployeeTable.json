@@ -133,7 +133,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 62,
   "serverSidePaginationEnabled": true,
-  "tableData": "{{EmployeeData.fetchEmployees.data}}",
+  "tableData": "{{EmployeeData.fetchEmployees()}}",
   "textSize": "0.875rem",
   "topRow": 35,
   "totalRecordsCount": 0,

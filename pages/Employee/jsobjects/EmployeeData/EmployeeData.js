@@ -5,6 +5,12 @@ export default {
 		department: ""
 	},
 	
+	// Initialize the data when the page loads
+	onPageLoad: function() {
+		this.fetchEmployees();
+		this.fetchDepartments();
+	},
+	
 	// Function to reset filters
 	resetFilters: function() {
 		this.selectedFilters = {
