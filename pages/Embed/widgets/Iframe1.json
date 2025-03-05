@@ -3,7 +3,7 @@
   "borderOpacity": 100,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 83,
+  "bottomRow": 85,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "dynamicBindingPathList": [
     {
@@ -11,9 +11,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "source"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -21,7 +18,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "yjd6e6uw6z",
-  "leftColumn": 3,
+  "leftColumn": 1,
   "mobileBottomRow": 70,
   "mobileLeftColumn": 3,
   "mobileRightColumn": 27,
@@ -32,9 +29,9 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 35,
-  "source": "{{ 'https://app.powerbi.com/reportEmbed?reportId=5c688160-96dd-4819-93ec-a89966b790a1&groupId=191cb1a3-53ef-4907-b67d-0c2e6e27be82&accessToken=' + fetchEmbedToken.data.embedToken }}",
-  "topRow": 38,
+  "rightColumn": 63,
+  "source": "https://app.powerbi.com/view?r=eyJrIjoiMzNjMzUzNzUtYjZhZS00ZTYwLTkxMzYtNjc0M2VjOWU4Yjc0IiwidCI6IjE2NjkwYzVhLTk4NTEtNGQ3Mi1hYTYxLTdkNTExYWI0YTY4MCIsImMiOjZ9",
+  "topRow": 11,
   "type": "IFRAME_WIDGET",
   "version": 1,
   "widgetId": "fcmearv397",

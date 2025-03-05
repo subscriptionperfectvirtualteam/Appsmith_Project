@@ -49,7 +49,7 @@
       "name": "PBIapi",
       "pluginId": "restapi-plugin"
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "fetchEmbedToken",
     "pageId": "Embed",
     "userSetOnLoad": false
