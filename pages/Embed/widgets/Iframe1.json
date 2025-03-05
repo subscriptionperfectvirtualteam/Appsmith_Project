@@ -3,14 +3,11 @@
   "borderOpacity": 100,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 85,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "bottomRow": 98,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -30,7 +27,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 63,
-  "source": "https://app.powerbi.com/view?r=eyJrIjoiMzNjMzUzNzUtYjZhZS00ZTYwLTkxMzYtNjc0M2VjOWU4Yjc0IiwidCI6IjE2NjkwYzVhLTk4NTEtNGQ3Mi1hYTYxLTdkNTExYWI0YTY4MCIsImMiOjZ9",
+  "source": "https://app.powerbi.com/view?r=eyJrIjoiYzEzOGZiMGUtNjU0MC00OTEwLWJmYmItNTMzZWFlOTc4OWI5IiwidCI6IjU4NGQyMGQ1LWY3YzItNGRjMS1hNzQxLTIwMjhiNGMyYTliMiJ9",
   "topRow": 11,
   "type": "IFRAME_WIDGET",
   "version": 1,
