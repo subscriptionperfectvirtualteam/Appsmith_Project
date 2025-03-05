@@ -28,6 +28,10 @@
     {
       "id": "Employee",
       "isDefault": false
+    },
+    {
+      "id": "Embed",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
